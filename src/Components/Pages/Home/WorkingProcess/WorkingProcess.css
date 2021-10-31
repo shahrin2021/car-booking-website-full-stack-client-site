@@ -1,0 +1,19 @@
+.work-item{
+    padding: 10px;
+}
+
+.working-text h5{
+    font-size: 18px;
+}
+
+.work-icon{
+    margin-right: 10px;
+}
+
+.work-icon img{
+    max-width: 100%;
+}
+
+.working-area{
+    margin-bottom: 80px !important;
+}

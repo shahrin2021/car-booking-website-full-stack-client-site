@@ -1,0 +1,10 @@
+.login-area{
+    height: 80vh;
+}
+
+.login-box{
+    border: 1px solid #ddd;
+    padding: 60px;
+    border-radius: 10px;
+    background-color: bisque;
+}

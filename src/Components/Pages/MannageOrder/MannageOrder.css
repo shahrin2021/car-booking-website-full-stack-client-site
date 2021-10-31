@@ -1,0 +1,11 @@
+.mannage-order-banner{
+    background-image: url(../../../image/banner-top.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
