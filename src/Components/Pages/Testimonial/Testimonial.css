@@ -1,0 +1,39 @@
+.testi-img img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.testi-title{
+    color: #8f1eeb;
+    font-size: 40px;
+    
+}
+
+.testimonial-items{
+    box-shadow: 5px 6px 10px 0 #fff;
+    padding: 20px;
+    background-color: #ddd;
+}
+
+.testi-details h5{
+    font-size: 20px;
+    font-family: 'open sans', sans-serif ;
+    font-weight: 400;
+    margin: 15px 0;
+}
+
+.testi-details p{
+    font: 16px;
+    
+}
+
+.testimonial-area{
+    margin-top: 60px;
+}
+
+@media(max-width:688px){
+    .testimonial-items{
+        margin-bottom: 30px;
+    }
+}
