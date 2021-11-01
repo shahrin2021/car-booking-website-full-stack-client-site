@@ -18,7 +18,7 @@ const ServiceDetails = () => {
     const history = useHistory()
 
     useEffect(()=>{
-        fetch('http://localhost:5000/carsercives')
+        fetch('https://ghoulish-plague-38489.herokuapp.com/carsercives')
         .then(res=> res.json())
         .then(data=> setServices(data))
     },[id])
@@ -32,7 +32,7 @@ const ServiceDetails = () => {
         
         const newService = { name:name, email:email, setviceItem:getService }
           console.log(newService)  
-          axios.post('http://localhost:5000/getServices', newService )
+          axios.post('https://ghoulish-plague-38489.herokuapp.com/getservices', newService )
         .then(res=> {
             if(res.data.insertedId){
              alert('successfully user added')
