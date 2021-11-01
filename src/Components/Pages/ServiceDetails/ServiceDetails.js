@@ -60,12 +60,13 @@ const ServiceDetails = () => {
                 <Row> 
                     <Col lg={8}>
                         <div>
-                            <h3>{getService?.name}</h3>
+                            <h3 className='my-3 text-primary'>{getService?.name}</h3>
                         </div>
                         <div>
                             <img src={getService?.img} alt="" />
                         </div>
                         <div>
+                            <h3 className='my-3 text-danger'>Overview</h3>
                             {getService?.overview}
                         </div>
   
