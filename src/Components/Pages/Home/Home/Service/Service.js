@@ -20,9 +20,16 @@ const Service = (props) => {
                     <h6>Price : {price}</h6>
                     <p>{review}</p>
                 </Card.Text>
-                <NavLink to ={`service/${id}`}>
+                
+                <div className='text-center'>
+                <NavLink className='me-3'  to ={`service/${id}`}>
                 <button className='btn btn-danger'>Booking now</button>
                 </NavLink>
+                <NavLink to={`/update/${props?.service?._id}`}>
+                <button className='btn btn-danger'>Update</button>
+                </NavLink>
+                </div>
+               
             </Card.Body>
         </Card>
    

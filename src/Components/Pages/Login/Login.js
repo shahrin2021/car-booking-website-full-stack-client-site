@@ -18,8 +18,13 @@ const Login = () => {
     return (
         <div>
             <div className="login-area d-flex justify-content-center align-items-center">
+              
                 <div className="login-box">
-                    <button onClick={handleGoogleLogin}>Singin with Google</button>
+                    <h3 className='mb-3 text-primary'>Please login </h3>
+                <div className='text-center  mb-2'>
+                <i className="uil uil-google login-icon "></i>
+                </div>
+                    <button className="btn btn-danger" onClick={handleGoogleLogin}>Singin with Google</button>
                 </div>
             </div>
         </div>

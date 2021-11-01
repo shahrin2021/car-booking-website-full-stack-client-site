@@ -8,3 +8,15 @@
     border-radius: 10px;
     background-color: bisque;
 }
+
+.login-icon {
+    display: block;
+    width: 60px;
+    height:60px;
+    border: 1px solid #ddd;
+    font-size: 40px;
+    margin: 0 auto;
+    border-radius: 10px;
+    color: crimson;
+    background-color:darksalmon;
+}

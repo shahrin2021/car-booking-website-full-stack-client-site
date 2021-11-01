@@ -12,6 +12,13 @@ import PrivateRoute from './Components/Pages/PrivateRoute/PrivateRoute';
 import ServiceDetails from './Components/Pages/ServiceDetails/ServiceDetails';
 import OrderReview from './Components/Pages/OrderReview/OrderReview';
 import MannageOrder from './Components/Pages/MannageOrder/MannageOrder';
+import Footer from './Components/Pages/Sheard/Footer/Footer';
+import PageNotFound from './Components/Pages/PageNotFound/PageNotFound';
+import UpdateService from './Components/Pages/UpdateService/UpdateService';
+import Contact from './Components/Pages/Contact/Contact';
+
+
+
 
 
 function App() {
@@ -46,15 +53,20 @@ function App() {
       <PrivateRoute path='/mannageorder'>
        <MannageOrder></MannageOrder>
       </PrivateRoute>
-      {/*
-      <Route path='/servicesDetails'>
-       <ServicesDetails></ServicesDetails>
-      </Route> */}
+      <PrivateRoute path='/update/:id'>
+       <UpdateService></UpdateService>
+      </PrivateRoute>
+      <Route exact path='/contact'>
+      <Contact></Contact>
+      </Route>
+      <Route exact path='*'>
+        <PageNotFound></PageNotFound>
+      </Route>
 
 
       </Switch>
-      
-      
+
+      <Footer></Footer>
       </BrowserRouter>
       </AuthProvider>
     </div>

@@ -1,0 +1,52 @@
+.email{
+    margin: 0;
+    font-size: 20px;
+    margin-left: 10px;
+    color: #fff;
+    
+}
+
+.footer-icon{
+    font-size: 40px;
+    color: #fff;
+ 
+}
+
+.footer-item{
+    font-size: 20px;
+    color:#000;
+    text-decoration: none;
+    margin-bottom: 20px;
+    display: block;
+    color: #fff !important
+    ;
+} 
+
+.footer-area{
+    background-color: #6450aa;
+    padding: 40px;
+    margin-top: 60px;
+    padding: 50px 10px;
+}
+
+.footer-form input{
+    border: none;
+    border-bottom: 1px solid #000;
+    background-color: #6450aa;
+
+    
+
+}
+
+.footer-form input:focus,
+.footer textarea:focus{
+    outline: none;
+}
+
+.footer textarea{
+    border: none;
+    border-bottom: 1px solid #000; 
+    background-color: #6450aa;
+    
+    
+}

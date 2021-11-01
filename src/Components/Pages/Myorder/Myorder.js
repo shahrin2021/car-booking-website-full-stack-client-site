@@ -3,12 +3,13 @@ import React from 'react';
 import { Card, Col } from 'react-bootstrap';
 
 const Myorder = (props) => {
-    const {name, email, setviceItem ,_id} = props.service;
+    const {name, email, setviceItem ,price,_id} = props.service;
     // const {handleDelete}=props.handleDelete;
 
     
 
     return (
+     
        
          <Col lg={4}>
          <Card style={{ width: '22rem' ,marginBottom:'30px'}}>
@@ -25,9 +26,9 @@ const Myorder = (props) => {
   </Card.Body>
 </Card>
          
-         
-         
-         </Col>
+ </Col>
+ 
+
        
     );
 };

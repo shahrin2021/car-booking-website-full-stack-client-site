@@ -12,7 +12,7 @@ const MannageOrder = () => {
     const {id}=useParams()
 console.log(allService)
     useEffect(()=>{
-        fetch('http://localhost:5000/getservices')
+        fetch('https://ghoulish-plague-38489.herokuapp.com/getservices')
         .then(res=>res.json())
         .then(data=> {setAllService(data)
         console.log(data)
@@ -20,7 +20,7 @@ console.log(allService)
     },[]);
 
     const handleDelete = (id)=>{
-        const url = `http://localhost:5000/getservices/${id}`;
+        const url = `https://ghoulish-plague-38489.herokuapp.com/getservices/${id}`;
         fetch(url,{
           method: "DELETE",
         })

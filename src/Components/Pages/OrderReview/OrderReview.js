@@ -12,7 +12,7 @@ const OrderReview = (props) => {
     const {user} = useAuth()
     
     useEffect(()=>{
-        fetch(`http://localhost:5000/getservices/${user.email}`)
+        fetch(`https://ghoulish-plague-38489.herokuapp.com/getservices/${user.email}`)
         .then(res=>res.json())
         .then(data=>{
              setServices(data)
@@ -23,7 +23,7 @@ const OrderReview = (props) => {
     },[]);
 
 const handleDelete = (id)=>{
-      const url = `http://localhost:5000/getservices/${id}`;
+      const url = `https://ghoulish-plague-38489.herokuapp.com/getservices/${id}`;
       fetch(url,{
         method: "DELETE",
       })
@@ -38,10 +38,10 @@ const handleDelete = (id)=>{
     };
 
     const newCart = services.length;
- 
+   
 
-
-
+   
+    
 
     
     return (
@@ -52,6 +52,7 @@ const handleDelete = (id)=>{
             <Container>
                 <h2 className= ' text-center mb-4 text-danger'>My Order</h2>
                 <h6 className='mb-2'> Total order: {newCart}</h6>
+                
                 <Row>
                     {
                        services.map(service=> <Myorder 
