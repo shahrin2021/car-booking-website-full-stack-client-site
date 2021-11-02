@@ -10,8 +10,8 @@ const Testimonial = () => {
            <Container>
 
 <div className='testi-heading text-center my-5'>
-    <h2 className='testi-title'>What Say Our Patient About us</h2>
-    <p> we are always work for our patient satisfaction</p>
+    <h2 className='testi-title'>What Say Our  customer About us</h2>
+    <p> we are always work for our customer satisfaction</p>
 </div>
 <Row>
     <Col lg={6}>
@@ -25,7 +25,7 @@ const Testimonial = () => {
                 <p>Teacher</p>
                 </div>
                 <p>
-                As a smaller or local healthcare practice, you don’t have the same resources a massive hospital system has available to you. However, studies show that smaller practices provide a higher level of personalization and responsiveness to individual needs at a lower cost.
+                The company continued to work at its regular pace. In 1972, the P250 Urraco, the 400 GT Jarama, the 400 GT Espada and the P400 Miura SV were in full production. That year, in an attempt to improve sales that were frankly quite disappointing until then, the Jarama hand a 365-hp engine and was dubbed the Jarama S. In 1972, the Urraco, which had experienced several initial slowdowns, was finally put into production. Almost inevitably, the S version also arrived in October of that year. In this case, the goal
                 </p>
             </div>
         </div>
@@ -41,7 +41,7 @@ const Testimonial = () => {
                 <p>Businesss women</p>
                 </div>
                 <p>
-                But have you ever received a handwritten thank you note or letter recently? It adds a personal touch that technology simply can’t reproduce. That’s because it means the sender took the time to sit down, pick out their favorite pen, and pull out a sheet of nice paper and write you something.
+                The company continued to work at its regular pace. In 1972, the P250 Urraco, the 400 GT Jarama, the 400 GT Espada and the P400 Miura SV were in full production. That year, in an attempt to improve sales that were frankly quite disappointing until then, the Jarama hand a 365-hp engine and was dubbed the Jarama S. In 1972, the Urraco, which had experienced several initial slowdowns, was finally put into production. Almost inevitably, the S version also arrived in October of that year. In this case, the goal
                 </p>
             </div>
         </div>

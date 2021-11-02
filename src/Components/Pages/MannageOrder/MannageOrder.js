@@ -42,7 +42,7 @@ console.log(allService)
     return (
         <div>
             <div className="mannage-order-banner">
-            <NavLink style={{fontSize:'22px', marginRight:'8px',textDecoration:'none' ,color:'#fff'}} to='/home'>home</NavLink><span style={{fontSize:'25px', marginRight:'8px',color:'blue'}} >/</span><NavLink style={{fontSize:'22px', marginRight:'8px', textDecoration:'none' ,color:'#fff'}}to='/addservice'>services</NavLink>
+            <NavLink style={{fontSize:'22px', marginRight:'8px',textDecoration:'none' ,color:'#fff'}} to='/home'>home</NavLink><span style={{fontSize:'25px', marginRight:'8px',color:'blue'}} >/</span><NavLink style={{fontSize:'22px', marginRight:'8px', textDecoration:'none' ,color:'#fff'}}to='/services'>services</NavLink>
             </div>
             <Container>
                 <h2 className='text-success text-center mb-4'>Mannage All Order</h2>

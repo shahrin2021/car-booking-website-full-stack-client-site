@@ -6,7 +6,7 @@ const UpdateService = () => {
     const {id} = useParams();
     const [service, setService] = useState({})
     useEffect(()=>{
-        const url =`http://localhost:5000/carsercives/${id}`
+        const url =`https://ghoulish-plague-38489.herokuapp.com/carsercives/${id}`
         fetch(url)
         .then(res=>res.json())
         .then(data=>{
@@ -29,7 +29,7 @@ const UpdateService = () => {
     };
 
     const handleSubmit= e=>{
-        const url = `http://localhost:5000/carsercives/${id}`;
+        const url = `https://ghoulish-plague-38489.herokuapp.com/carsercives/${id}`;
         fetch(url ,{
             method: 'PUT',
             headers:{
