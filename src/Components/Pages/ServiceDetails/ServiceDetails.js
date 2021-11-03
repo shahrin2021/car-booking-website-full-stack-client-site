@@ -72,7 +72,7 @@ const ServiceDetails = () => {
   
                     </Col>
                     <Col lg={4}  >
-                        <div className='confirm-booking'>
+                        <div className='confirm-booking mt-4'>
           
                     <form action="" onSubmit={onSubmit}>
                         <div>

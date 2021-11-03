@@ -24,7 +24,7 @@ const AddService = () => {
 
         const newService= { id: id, name: name, img:img, overview: overview, review:review, 
             client:client }
-        fetch('http://localhost:5000/carsercives', {
+        fetch('https://ghoulish-plague-38489.herokuapp.com/carsercives', {
             method: "POST", 
             headers:{
                 "content-Type":"application/json"
